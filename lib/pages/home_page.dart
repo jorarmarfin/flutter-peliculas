@@ -25,10 +25,7 @@ class HomePage extends StatelessWidget {
       //Este singleChildScrollView es para que se puda hacer scroll en la
       // pantalla cuando se coloca un objeto que sobre pasa
       child: Column(
-        children: const [
-          //CardSwiper(),
-          MovieSlider()
-        ],
+        children: const [CardSwiper(), MovieSlider()],
       ),
     );
   }
